@@ -1,19 +1,10 @@
-# Extra info regarding projects
-
-**main**: KKL
-**feature/shimano-simplified**: Explosive View
-
 # KKL-3D-Prototype
 
-# **Projects**
+# **node & npm Version**
 
-- There are **_two projects_** in this repository, which are both based on similar packages and therefore originated in the same repo.
-- The two projects are placed in the two branches: **_"kkl-room-configurator"_** and **_"shimano-explosive-view"_**.
-- The branches "main" and "kkl-room-configurator" currently contain the same code and are identical.
-- The branch "shimano-explosive-view" is a simplification of the branch "main"/"kkl-room-configurator". However, the branch "shimano-explosive-view" shows some new features and adjustments, which are not in "main"/"kkl-room-configurator". Some of them are: explosive-view-animation, resizable-3d-model-window for mobile and tablet, more interaction possibilities, UI design adapted to Cando Image GmbH Branding.
-
-<img src="./kkl-3d-prototype/public/readme/shimano-and-kkl-preview.png">
-Shimano-Explosive-View (left) and KKL-Room-Configurator (right) Preview
+In Node.js v17, the Node.js developers closed a security hole in the SSL provider. This fix was a breaking change that corresponded with similar breaking changes in the SSL packages in NPM. When you attempt to use SSL in Node.js v17 or later without also upgrading those SSL packages in your package.json, then you will see this error.
+Currently this project can only be used with a node version <=17.
+(used version for developing and testing: node: v16.20.2, npm: 8.19.4).
 
 # **Foreword**
 
