@@ -1,6 +1,6 @@
 # KKL-3D-Prototype
 
-## Preview URL:
+## Preview URL
 https://brazhnik.de/room-configurator/
 
 # **node & npm Version**
